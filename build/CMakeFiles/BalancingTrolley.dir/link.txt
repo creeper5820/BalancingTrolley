@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/BalancingTrolley.dir/main.cc.o CMakeFiles/BalancingTrolley.dir/PidCode/pid.cc.o -o BalancingTrolley 
+/usr/bin/c++ -g CMakeFiles/BalancingTrolley.dir/main.cc.o -o BalancingTrolley 

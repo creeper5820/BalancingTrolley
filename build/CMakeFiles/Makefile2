@@ -81,12 +81,12 @@ clean: CMakeFiles/BalancingTrolley.dir/clean
 CMakeFiles/BalancingTrolley.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BalancingTrolley.dir/build.make CMakeFiles/BalancingTrolley.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BalancingTrolley.dir/build.make CMakeFiles/BalancingTrolley.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/creeper5820/Documents/一些文档/BalancingTrolley/build/CMakeFiles --progress-num=1,2,3 "Built target BalancingTrolley"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/creeper5820/Documents/一些文档/BalancingTrolley/build/CMakeFiles --progress-num=1,2 "Built target BalancingTrolley"
 .PHONY : CMakeFiles/BalancingTrolley.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/BalancingTrolley.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/creeper5820/Documents/一些文档/BalancingTrolley/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/creeper5820/Documents/一些文档/BalancingTrolley/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/BalancingTrolley.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/creeper5820/Documents/一些文档/BalancingTrolley/build/CMakeFiles 0
 .PHONY : CMakeFiles/BalancingTrolley.dir/rule

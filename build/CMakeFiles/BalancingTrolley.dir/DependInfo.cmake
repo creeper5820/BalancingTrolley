@@ -8,7 +8,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/creeper5820/Documents/一些文档/BalancingTrolley/PidCode/pid.cc" "CMakeFiles/BalancingTrolley.dir/PidCode/pid.cc.o" "gcc" "CMakeFiles/BalancingTrolley.dir/PidCode/pid.cc.o.d"
   "/home/creeper5820/Documents/一些文档/BalancingTrolley/main.cc" "CMakeFiles/BalancingTrolley.dir/main.cc.o" "gcc" "CMakeFiles/BalancingTrolley.dir/main.cc.o.d"
   )
 

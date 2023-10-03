@@ -129,30 +129,6 @@ BalancingTrolley/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BalancingTrolley.dir/build.make CMakeFiles/BalancingTrolley.dir/build
 .PHONY : BalancingTrolley/fast
 
-PidCode/pid.o: PidCode/pid.cc.o
-.PHONY : PidCode/pid.o
-
-# target to build an object file
-PidCode/pid.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BalancingTrolley.dir/build.make CMakeFiles/BalancingTrolley.dir/PidCode/pid.cc.o
-.PHONY : PidCode/pid.cc.o
-
-PidCode/pid.i: PidCode/pid.cc.i
-.PHONY : PidCode/pid.i
-
-# target to preprocess a source file
-PidCode/pid.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BalancingTrolley.dir/build.make CMakeFiles/BalancingTrolley.dir/PidCode/pid.cc.i
-.PHONY : PidCode/pid.cc.i
-
-PidCode/pid.s: PidCode/pid.cc.s
-.PHONY : PidCode/pid.s
-
-# target to generate assembly for a file
-PidCode/pid.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BalancingTrolley.dir/build.make CMakeFiles/BalancingTrolley.dir/PidCode/pid.cc.s
-.PHONY : PidCode/pid.cc.s
-
 main.o: main.cc.o
 .PHONY : main.o
 
@@ -186,9 +162,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... BalancingTrolley"
-	@echo "... PidCode/pid.o"
-	@echo "... PidCode/pid.i"
-	@echo "... PidCode/pid.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

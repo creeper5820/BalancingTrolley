@@ -3,10 +3,5 @@
   "directory": "/home/creeper5820/Documents/一些文档/BalancingTrolley/build",
   "command": "/usr/bin/c++   -g -o CMakeFiles/BalancingTrolley.dir/main.cc.o -c /home/creeper5820/Documents/一些文档/BalancingTrolley/main.cc",
   "file": "/home/creeper5820/Documents/一些文档/BalancingTrolley/main.cc"
-},
-{
-  "directory": "/home/creeper5820/Documents/一些文档/BalancingTrolley/build",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/BalancingTrolley.dir/PidCode/pid.cc.o -c /home/creeper5820/Documents/一些文档/BalancingTrolley/PidCode/pid.cc",
-  "file": "/home/creeper5820/Documents/一些文档/BalancingTrolley/PidCode/pid.cc"
 }
 ]

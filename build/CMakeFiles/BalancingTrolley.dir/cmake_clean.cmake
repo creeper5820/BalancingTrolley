@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
   "BalancingTrolley"
   "BalancingTrolley.pdb"
-  "CMakeFiles/BalancingTrolley.dir/PidCode/pid.cc.o"
-  "CMakeFiles/BalancingTrolley.dir/PidCode/pid.cc.o.d"
   "CMakeFiles/BalancingTrolley.dir/main.cc.o"
   "CMakeFiles/BalancingTrolley.dir/main.cc.o.d"
 )
