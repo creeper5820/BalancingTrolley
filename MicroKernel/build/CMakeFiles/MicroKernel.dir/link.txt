@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/MicroKernel.dir/main.cc.o -o MicroKernel 

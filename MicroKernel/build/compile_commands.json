@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/creeper5820/Documents/SomeFiles/MicroKernel/build",
+  "command": "/usr/bin/c++   -g -std=gnu++17 -o CMakeFiles/MicroKernel.dir/main.cc.o -c /home/creeper5820/Documents/SomeFiles/MicroKernel/src/main.cc",
+  "file": "/home/creeper5820/Documents/SomeFiles/MicroKernel/src/main.cc"
+}
+]
