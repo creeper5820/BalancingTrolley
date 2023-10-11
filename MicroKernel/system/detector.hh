@@ -1,6 +1,7 @@
 #pragma once
 
 #include "stdbool.h"
+#include "memory"
 
 #include "task.hh"
 
@@ -12,10 +13,9 @@ enum Detector_Status {
 class Detector {
 private:
     int detector_status = stop;
-    Task* ptask = nullptr;
 
 public:
-    virtual void Run() = 0;
+    virtual std::unique_ptr<Task> Run() = 0;
 
     Detector()
     {
@@ -40,30 +40,9 @@ public:
             return false;
     }
 
-    void Set_Task(Task* _ptask)
+    template <class Task_User_Template>
+    std::unique_ptr<Task> Make_Task(Task_User_Template task_user)
     {
-        ptask = _ptask;
-    }
-
-    void Delay_Thread()
-    {
-        if (!Check())
-            return;
-
-        Run();
-    }
-
-    Task* Get_Task()
-    {
-        if (ptask == nullptr)
-            return nullptr;
-        else {
-            return ptask;
-        }
-    }
-
-    void Empty_Task()
-    {
-        ptask = nullptr;
+        return std::make_unique<Task_User_Template>(task_user);
     }
 };

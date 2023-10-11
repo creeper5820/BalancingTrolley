@@ -19,10 +19,15 @@ CMakeFiles/Balance.dir/main.cc.obj: D:/Git/BalancingTrolley/main.cc \
   D:/Software/Msys64/mingw64/include/_mingw_secapi.h \
   D:/Software/Msys64/mingw64/include/_mingw_stat64.h \
   D:/Software/Msys64/mingw64/include/_timeval.h \
+  D:/Software/Msys64/mingw64/include/c++/13.2.0/backward/auto_ptr.h \
   D:/Software/Msys64/mingw64/include/c++/13.2.0/backward/binders.h \
   D:/Software/Msys64/mingw64/include/c++/13.2.0/bit \
+  D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/align.h \
   D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/alloc_traits.h \
+  D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/allocated_ptr.h \
   D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/allocator.h \
+  D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/atomic_base.h \
+  D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/atomic_lockfree_defines.h \
   D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/basic_ios.h \
   D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/basic_ios.tcc \
   D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/basic_string.h \
@@ -43,6 +48,7 @@ CMakeFiles/Balance.dir/main.cc.obj: D:/Git/BalancingTrolley/main.cc \
   D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/invoke.h \
   D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/ios_base.h \
   D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/istream.tcc \
+  D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/list.tcc \
   D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/locale_classes.h \
   D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/locale_classes.tcc \
   D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/locale_facets.h \
@@ -61,6 +67,9 @@ CMakeFiles/Balance.dir/main.cc.obj: D:/Git/BalancingTrolley/main.cc \
   D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/range_access.h \
   D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/refwrap.h \
   D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/requires_hosted.h \
+  D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/shared_ptr.h \
+  D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/shared_ptr_atomic.h \
+  D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/shared_ptr_base.h \
   D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/std_abs.h \
   D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/stl_algobase.h \
   D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/stl_bvector.h \
@@ -71,14 +80,18 @@ CMakeFiles/Balance.dir/main.cc.obj: D:/Git/BalancingTrolley/main.cc \
   D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/stl_iterator.h \
   D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/stl_iterator_base_funcs.h \
   D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/stl_iterator_base_types.h \
+  D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/stl_list.h \
   D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/stl_pair.h \
   D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/stl_queue.h \
+  D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/stl_raw_storage_iter.h \
+  D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/stl_tempbuf.h \
   D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/stl_uninitialized.h \
   D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/stl_vector.h \
   D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/streambuf.tcc \
   D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/streambuf_iterator.h \
   D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/string_view.tcc \
   D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/stringfwd.h \
+  D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/unique_ptr.h \
   D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/uses_allocator.h \
   D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/uses_allocator_args.h \
   D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/utility.h \
@@ -95,8 +108,10 @@ CMakeFiles/Balance.dir/main.cc.obj: D:/Git/BalancingTrolley/main.cc \
   D:/Software/Msys64/mingw64/include/c++/13.2.0/debug/debug.h \
   D:/Software/Msys64/mingw64/include/c++/13.2.0/deque \
   D:/Software/Msys64/mingw64/include/c++/13.2.0/exception \
+  D:/Software/Msys64/mingw64/include/c++/13.2.0/ext/aligned_buffer.h \
   D:/Software/Msys64/mingw64/include/c++/13.2.0/ext/alloc_traits.h \
   D:/Software/Msys64/mingw64/include/c++/13.2.0/ext/atomicity.h \
+  D:/Software/Msys64/mingw64/include/c++/13.2.0/ext/concurrence.h \
   D:/Software/Msys64/mingw64/include/c++/13.2.0/ext/numeric_traits.h \
   D:/Software/Msys64/mingw64/include/c++/13.2.0/ext/string_conversions.h \
   D:/Software/Msys64/mingw64/include/c++/13.2.0/ext/type_traits.h \
@@ -105,8 +120,12 @@ CMakeFiles/Balance.dir/main.cc.obj: D:/Git/BalancingTrolley/main.cc \
   D:/Software/Msys64/mingw64/include/c++/13.2.0/iosfwd \
   D:/Software/Msys64/mingw64/include/c++/13.2.0/iostream \
   D:/Software/Msys64/mingw64/include/c++/13.2.0/istream \
+  D:/Software/Msys64/mingw64/include/c++/13.2.0/list \
+  D:/Software/Msys64/mingw64/include/c++/13.2.0/memory \
   D:/Software/Msys64/mingw64/include/c++/13.2.0/new \
   D:/Software/Msys64/mingw64/include/c++/13.2.0/ostream \
+  D:/Software/Msys64/mingw64/include/c++/13.2.0/pstl/execution_defs.h \
+  D:/Software/Msys64/mingw64/include/c++/13.2.0/pstl/glue_memory_defs.h \
   D:/Software/Msys64/mingw64/include/c++/13.2.0/pstl/pstl_config.h \
   D:/Software/Msys64/mingw64/include/c++/13.2.0/queue \
   D:/Software/Msys64/mingw64/include/c++/13.2.0/stdexcept \
@@ -153,6 +172,7 @@ CMakeFiles/Balance.dir/main.cc.obj: D:/Git/BalancingTrolley/main.cc \
   D:/Software/Msys64/mingw64/include/sec_api/wchar_s.h \
   D:/Software/Msys64/mingw64/include/signal.h \
   D:/Software/Msys64/mingw64/include/stddef.h \
+  D:/Software/Msys64/mingw64/include/stdint.h \
   D:/Software/Msys64/mingw64/include/stdio.h \
   D:/Software/Msys64/mingw64/include/stdlib.h \
   D:/Software/Msys64/mingw64/include/swprintf.inl \
@@ -166,6 +186,7 @@ CMakeFiles/Balance.dir/main.cc.obj: D:/Git/BalancingTrolley/main.cc \
   D:/Software/Msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/mm_malloc.h \
   D:/Software/Msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdbool.h \
   D:/Software/Msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stddef.h \
+  D:/Software/Msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdint.h \
   D:/Software/Msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/syslimits.h
 
 
@@ -174,8 +195,6 @@ D:/Git/BalancingTrolley/MicroKernel/system/utility.hh:
 D:/Software/Msys64/mingw64/include/process.h:
 
 D:/Git/BalancingTrolley/Controller/MotionController/motion.cc:
-
-D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/stl_construct.h:
 
 D:/Git/BalancingTrolley/Controller/MotionController/motion.hh:
 
@@ -191,10 +210,6 @@ D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/concept_check.h:
 
 D:/Git/BalancingTrolley/MicroKernel/system/detector.hh:
 
-D:/Git/BalancingTrolley/MicroKernel/system/system.hh:
-
-D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/stl_algobase.h:
-
 D:/Software/Msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/error_constants.h:
 
 D:/Software/Msys64/mingw64/include/c++/13.2.0/clocale:
@@ -202,6 +217,10 @@ D:/Software/Msys64/mingw64/include/c++/13.2.0/clocale:
 D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/range_access.h:
 
 D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/cxxabi_init_exception.h:
+
+D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/stl_algobase.h:
+
+D:/Git/BalancingTrolley/MicroKernel/system/system.hh:
 
 D:/Git/BalancingTrolley/MicroKernel/user/test_detector.hh:
 
@@ -211,15 +230,17 @@ D:/Git/BalancingTrolley/MicroKernel/user/test_task.hh:
 
 D:/Software/Msys64/mingw64/include/_mingw.h:
 
+D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/atomic_base.h:
+
+D:/Software/Msys64/mingw64/include/c++/13.2.0/backward/auto_ptr.h:
+
 D:/Software/Msys64/mingw64/include/_mingw_mac.h:
-
-D:/Software/Msys64/mingw64/include/signal.h:
-
-D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/std_abs.h:
 
 D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/hash_bytes.h:
 
 D:/Software/Msys64/mingw64/include/_mingw_off_t.h:
+
+D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/align.h:
 
 D:/Software/Msys64/mingw64/include/_mingw_secapi.h:
 
@@ -237,7 +258,13 @@ D:/Software/Msys64/mingw64/include/c++/13.2.0/backward/binders.h:
 
 D:/Software/Msys64/mingw64/include/c++/13.2.0/bit:
 
+D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/allocated_ptr.h:
+
 D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/allocator.h:
+
+D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/atomic_lockfree_defines.h:
+
+D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/memoryfwd.h:
 
 D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/basic_ios.h:
 
@@ -253,21 +280,17 @@ D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/basic_string.tcc:
 
 D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/char_traits.h:
 
-D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/stl_function.h:
-
 D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/charconv.h:
 
 D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/stl_iterator.h:
+
+D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/shared_ptr.h:
 
 D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/cpp_type_traits.h:
 
 D:/Software/Msys64/mingw64/include/crtdefs.h:
 
 D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/cxxabi_forced.h:
-
-D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/stl_heap.h:
-
-D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/stl_deque.h:
 
 D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/deque.tcc:
 
@@ -287,6 +310,8 @@ D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/ios_base.h:
 
 D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/istream.tcc:
 
+D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/list.tcc:
+
 D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/locale_classes.h:
 
 D:/Software/Msys64/mingw64/include/corecrt_stdio_config.h:
@@ -305,8 +330,6 @@ D:/Software/Msys64/mingw64/include/c++/13.2.0/exception:
 
 D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/memory_resource.h:
 
-D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/memoryfwd.h:
-
 D:/Software/Msys64/mingw64/include/pthread_signal.h:
 
 D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/predefined_ops.h:
@@ -321,15 +344,39 @@ D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/ostream_insert.h:
 
 D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/refwrap.h:
 
+D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/shared_ptr_atomic.h:
+
+D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/shared_ptr_base.h:
+
+D:/Software/Msys64/mingw64/include/signal.h:
+
+D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/std_abs.h:
+
 D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/stl_bvector.h:
+
+D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/stl_construct.h:
+
+D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/stl_heap.h:
+
+D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/stl_deque.h:
+
+D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/stl_function.h:
 
 D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/stl_iterator_base_funcs.h:
 
+D:/Software/Msys64/mingw64/include/c++/13.2.0/pstl/execution_defs.h:
+
 D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/stl_iterator_base_types.h:
+
+D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/stl_list.h:
 
 D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/stl_pair.h:
 
 D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/stl_queue.h:
+
+D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/stl_raw_storage_iter.h:
+
+D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/stl_tempbuf.h:
 
 D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/stl_uninitialized.h:
 
@@ -340,6 +387,8 @@ D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/streambuf.tcc:
 D:/Software/Msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/gthr-default.h:
 
 D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/string_view.tcc:
+
+D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/unique_ptr.h:
 
 D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/uses_allocator.h:
 
@@ -375,6 +424,8 @@ D:/Software/Msys64/mingw64/include/c++/13.2.0/debug/debug.h:
 
 D:/Software/Msys64/mingw64/include/c++/13.2.0/deque:
 
+D:/Software/Msys64/mingw64/include/c++/13.2.0/ext/aligned_buffer.h:
+
 D:/Software/Msys64/mingw64/include/wctype.h:
 
 D:/Software/Msys64/mingw64/include/c++/13.2.0/ext/alloc_traits.h:
@@ -382,6 +433,8 @@ D:/Software/Msys64/mingw64/include/c++/13.2.0/ext/alloc_traits.h:
 D:/Software/Msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/mm_malloc.h:
 
 D:/Software/Msys64/mingw64/include/c++/13.2.0/ext/atomicity.h:
+
+D:/Software/Msys64/mingw64/include/c++/13.2.0/ext/concurrence.h:
 
 D:/Software/Msys64/mingw64/include/c++/13.2.0/ext/numeric_traits.h:
 
@@ -398,6 +451,12 @@ D:/Software/Msys64/mingw64/include/c++/13.2.0/iosfwd:
 D:/Software/Msys64/mingw64/include/c++/13.2.0/iostream:
 
 D:/Software/Msys64/mingw64/include/c++/13.2.0/istream:
+
+D:/Software/Msys64/mingw64/include/c++/13.2.0/list:
+
+D:/Software/Msys64/mingw64/include/c++/13.2.0/memory:
+
+D:/Software/Msys64/mingw64/include/c++/13.2.0/pstl/glue_memory_defs.h:
 
 D:/Software/Msys64/mingw64/include/c++/13.2.0/pstl/pstl_config.h:
 
@@ -477,6 +536,8 @@ D:/Software/Msys64/mingw64/include/sec_api/wchar_s.h:
 
 D:/Software/Msys64/mingw64/include/stddef.h:
 
+D:/Software/Msys64/mingw64/include/stdint.h:
+
 D:/Software/Msys64/mingw64/include/stdio.h:
 
 D:/Software/Msys64/mingw64/include/swprintf.inl:
@@ -494,5 +555,7 @@ D:/Software/Msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/limits.h:
 D:/Software/Msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdbool.h:
 
 D:/Software/Msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stddef.h:
+
+D:/Software/Msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdint.h:
 
 D:/Software/Msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/syslimits.h:

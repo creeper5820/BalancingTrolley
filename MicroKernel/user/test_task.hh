@@ -4,22 +4,25 @@
 
 class Test_Task : public Task {
 private:
-    Utility utility;
-    float temperture;
-    float factor;
-    std::string output;
+    Utility utility_;
+    float temperture_;
+    float factor_;
+    std::string output_;
 
 public:
-    Test_Task()
+    using Task::Task;
+
+    Test_Task(int task_level)
+        : Task(task_level)
     {
-        temperture = 24.7;
-        factor = 0.84;
+        temperture_ = 24.7;
+        factor_ = 0.84;
     }
 
     void Handler()
     {
-        output = "The expected value is " + std::to_string(temperture * factor);
-        utility.Log("Test handler works");
-        utility.Log(output);
+        output_ = "The expected value is " + std::to_string(temperture_ * factor_);
+        utility_.Log("Test handler works");
+        utility_.Log(output_);
     }
 };

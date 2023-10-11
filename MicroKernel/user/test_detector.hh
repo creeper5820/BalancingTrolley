@@ -4,18 +4,19 @@
 
 class Test_Detector : public Detector {
 private:
-    int count = 0;
+    int count_ = 0;
 
 public:
-    void Run()
+    std::unique_ptr<Task> Run()
     {
-        if (count == 5) {
-            count = 0;
+        if (count_ == 5) {
 
-            auto task_temp = Test_Task();
-            Set_Task(&task_temp);
+            count_ = 0;
+
+            return Make_Task(Test_Task(task_debug));
         }
 
-        count++;
+        count_++;
+        return nullptr;
     }
 };

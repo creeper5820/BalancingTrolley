@@ -153,9 +153,30 @@ CMakeFiles/Balance.dir/main.cc.obj: D:\Git\BalancingTrolley\main.cc \
  D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/vector.tcc \
  D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/stl_heap.h \
  D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/stl_queue.h \
- D:/Git/BalancingTrolley/MicroKernel/system/task.hh \
- D:/Git/BalancingTrolley/MicroKernel/user/test_detector.hh \
+ D:/Software/Msys64/mingw64/include/c++/13.2.0/list \
+ D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/stl_list.h \
+ D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/allocated_ptr.h \
+ D:/Software/Msys64/mingw64/include/c++/13.2.0/ext/aligned_buffer.h \
+ D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/list.tcc \
+ D:/Software/Msys64/mingw64/include/c++/13.2.0/memory \
+ D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/stl_tempbuf.h \
+ D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/stl_raw_storage_iter.h \
+ D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/align.h \
+ D:/Software/Msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdint.h \
+ D:/Software/Msys64/mingw64/include/stdint.h \
+ D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/unique_ptr.h \
+ D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/shared_ptr.h \
+ D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/shared_ptr_base.h \
+ D:/Software/Msys64/mingw64/include/c++/13.2.0/ext/concurrence.h \
+ D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/shared_ptr_atomic.h \
+ D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/atomic_base.h \
+ D:/Software/Msys64/mingw64/include/c++/13.2.0/bits/atomic_lockfree_defines.h \
+ D:/Software/Msys64/mingw64/include/c++/13.2.0/backward/auto_ptr.h \
+ D:/Software/Msys64/mingw64/include/c++/13.2.0/pstl/glue_memory_defs.h \
+ D:/Software/Msys64/mingw64/include/c++/13.2.0/pstl/execution_defs.h \
  D:/Git/BalancingTrolley/MicroKernel/system/detector.hh \
  D:/Software/Msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdbool.h \
+ D:/Git/BalancingTrolley/MicroKernel/system/task.hh \
+ D:/Git/BalancingTrolley/MicroKernel/user/test_detector.hh \
  D:/Git/BalancingTrolley/MicroKernel/user/test_task.hh \
  D:/Git/BalancingTrolley/MicroKernel/system/utility.hh
