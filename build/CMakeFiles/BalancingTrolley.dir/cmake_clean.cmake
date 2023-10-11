@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
-  "BalancingTrolley"
+  "BalancingTrolley.exe"
+  "BalancingTrolley.exe.manifest"
   "BalancingTrolley.pdb"
-  "CMakeFiles/BalancingTrolley.dir/main.cc.o"
-  "CMakeFiles/BalancingTrolley.dir/main.cc.o.d"
+  "CMakeFiles/BalancingTrolley.dir/main.cc.obj"
+  "CMakeFiles/BalancingTrolley.dir/main.cc.obj.d"
+  "libBalancingTrolley.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

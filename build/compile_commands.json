@@ -1,7 +1,20 @@
 [
 {
-  "directory": "/home/creeper5820/Documents/一些文档/BalancingTrolley/build",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/BalancingTrolley.dir/main.cc.o -c /home/creeper5820/Documents/一些文档/BalancingTrolley/main.cc",
-  "file": "/home/creeper5820/Documents/一些文档/BalancingTrolley/main.cc"
+  "directory": "D:/Git/BalancingTrolley/build",
+  "command": "D:\\Software\\Msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\Balance.dir\\main.cc.obj -c D:\\Git\\BalancingTrolley\\main.cc",
+  "file": "D:/Git/BalancingTrolley/main.cc",
+  "output": "CMakeFiles/Balance.dir/main.cc.obj"
+},
+{
+  "directory": "D:/Git/BalancingTrolley/build",
+  "command": "D:\\Software\\Msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\Balance.dir\\Controller\\MotionController\\motion.cc.obj -c D:\\Git\\BalancingTrolley\\Controller\\MotionController\\motion.cc",
+  "file": "D:/Git/BalancingTrolley/Controller/MotionController/motion.cc",
+  "output": "CMakeFiles/Balance.dir/Controller/MotionController/motion.cc.obj"
+},
+{
+  "directory": "D:/Git/BalancingTrolley/build",
+  "command": "D:\\Software\\Msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\Balance.dir\\Controller\\PIDRegulator\\pid.cc.obj -c D:\\Git\\BalancingTrolley\\Controller\\PIDRegulator\\pid.cc",
+  "file": "D:/Git/BalancingTrolley/Controller/PIDRegulator/pid.cc",
+  "output": "CMakeFiles/Balance.dir/Controller/PIDRegulator/pid.cc.obj"
 }
 ]
