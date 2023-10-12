@@ -8,6 +8,13 @@ Utility utility;
 
 int main()
 {
-    test_detector.Start();
+    test.Push_Detector(&test_detector);
+
+    while (1) {
+        utility.Delay();
+        utility.Log(".");
+        test.Theard();
+    }
+
     return 0;
 }

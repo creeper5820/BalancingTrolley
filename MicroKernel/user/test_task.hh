@@ -22,7 +22,9 @@ public:
     void Handler()
     {
         output_ = "The expected value is " + std::to_string(temperture_ * factor_);
+
         utility_.Log("Test handler works");
+        utility_.Log("Set The Given Controller Successfully");
         utility_.Log(output_);
     }
 };

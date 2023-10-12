@@ -19,6 +19,12 @@ private:
 public:
     Kernel() {}
 
+    template <class Detector_User>
+    void Push_Detector(Detector_User* detector_ptr)
+    {
+        detector_list_.push_back(std::move(std::make_unique<Detector_User>(*detector_ptr)));
+    }
+
     void Read_Detector()
     {
         std::list<std::unique_ptr<Detector> >::iterator detector_iterator;
@@ -54,7 +60,31 @@ public:
         }
     }
 
-    void Handle_Task();
+    void Handle_Task()
+    {
+        std::queue<std::unique_ptr<Task> >* task_queue_group[]
+            = { &task_queue_debug_,
+                &task_queue_positive_,
+                &task_queue_negtive_ };
 
-    void Run();
+        int number_queue = sizeof(task_queue_group) / sizeof(task_queue_group[0]);
+
+        for (int count_for = 0; count_for < number_queue; count_for++) {
+
+            auto task_queue_temp = std::move(*(task_queue_group[count_for]));
+
+            while (!task_queue_temp.empty()) {
+
+                auto task_temp = std::move(task_queue_temp.front());
+                task_temp->Handler();
+                task_queue_temp.pop();
+            }
+        }
+    }
+
+    void Theard()
+    {
+        Read_Detector();
+        Handle_Task();
+    }
 };

@@ -9,10 +9,9 @@ private:
 public:
     std::unique_ptr<Task> Run()
     {
-        if (count_ == 5) {
+        count_ = rand() % 200;
 
-            count_ = 0;
-
+        if (count_ < 50) {
             return Make_Task(Test_Task(task_debug));
         }
 

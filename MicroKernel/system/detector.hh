@@ -12,14 +12,14 @@ enum Detector_Status {
 
 class Detector {
 private:
-    int detector_status = stop;
+    int detector_status = run;
 
 public:
     virtual std::unique_ptr<Task> Run() = 0;
 
     Detector()
     {
-        Stop();
+        Start();
     }
 
     void Stop()
