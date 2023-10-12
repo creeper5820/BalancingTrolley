@@ -1,14 +1,12 @@
 file(REMOVE_RECURSE
-  "Balance.exe"
-  "Balance.exe.manifest"
+  "Balance"
   "Balance.pdb"
-  "CMakeFiles/Balance.dir/Controller/MotionController/motion.cc.obj"
-  "CMakeFiles/Balance.dir/Controller/MotionController/motion.cc.obj.d"
-  "CMakeFiles/Balance.dir/Controller/PIDRegulator/pid.cc.obj"
-  "CMakeFiles/Balance.dir/Controller/PIDRegulator/pid.cc.obj.d"
-  "CMakeFiles/Balance.dir/main.cc.obj"
-  "CMakeFiles/Balance.dir/main.cc.obj.d"
-  "libBalance.dll.a"
+  "CMakeFiles/Balance.dir/Controller/MotionController/motion.cc.o"
+  "CMakeFiles/Balance.dir/Controller/MotionController/motion.cc.o.d"
+  "CMakeFiles/Balance.dir/Controller/PIDRegulator/pid.cc.o"
+  "CMakeFiles/Balance.dir/Controller/PIDRegulator/pid.cc.o.d"
+  "CMakeFiles/Balance.dir/main.cc.o"
+  "CMakeFiles/Balance.dir/main.cc.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

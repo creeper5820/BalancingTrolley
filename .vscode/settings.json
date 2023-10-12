@@ -46,6 +46,16 @@
         "ostream": "cpp",
         "stdexcept": "cpp",
         "streambuf": "cpp",
-        "typeinfo": "cpp"
+        "typeinfo": "cpp",
+        "cstdarg": "cpp",
+        "ctime": "cpp",
+        "chrono": "cpp",
+        "forward_list": "cpp",
+        "map": "cpp",
+        "unordered_set": "cpp",
+        "ratio": "cpp",
+        "sstream": "cpp",
+        "cinttypes": "cpp",
+        "typeindex": "cpp"
     }
 }

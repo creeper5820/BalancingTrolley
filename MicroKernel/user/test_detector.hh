@@ -15,7 +15,6 @@ public:
             return Make_Task(Test_Task(task_debug));
         }
 
-        count_++;
         return nullptr;
     }
 };

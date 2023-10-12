@@ -1,36 +1,39 @@
 #pragma once
 #include "iostream"
-#include "queue"
 #include "list"
-#include "string"
 #include "memory"
+#include "queue"
+#include "string"
 
 #include "detector.hh"
 #include "task.hh"
 
 class Kernel {
 private:
-    std::list<std::unique_ptr<Detector> > detector_list_;
+    std::list<std::unique_ptr<Detector>> detector_list_;
 
-    std::queue<std::unique_ptr<Task> > task_queue_debug_;
-    std::queue<std::unique_ptr<Task> > task_queue_positive_;
-    std::queue<std::unique_ptr<Task> > task_queue_negtive_;
+    std::queue<std::unique_ptr<Task>> task_queue_debug_;
+    std::queue<std::unique_ptr<Task>> task_queue_positive_;
+    std::queue<std::unique_ptr<Task>> task_queue_negtive_;
 
 public:
-    Kernel() {}
+    Kernel() { }
 
-    template <class Detector_User>
-    void Push_Detector(Detector_User* detector_ptr)
+    // template <class Detector_User>
+    // void Push_Detector(Detector_User* detector_ptr)
+    // {
+    //     detector_list_.push_back(std::make_unique<Detector_User>(*detector_ptr));
+    // }
+
+    void Push_Detector(std::unique_ptr<Detector> detector)
     {
-        detector_list_.push_back(std::move(std::make_unique<Detector_User>(*detector_ptr)));
+        detector_list_.push_back(std::move(detector));
     }
 
     void Read_Detector()
     {
-        std::list<std::unique_ptr<Detector> >::iterator detector_iterator;
-
         for (
-            detector_iterator = detector_list_.begin();
+            auto detector_iterator = detector_list_.begin();
             detector_iterator != detector_list_.end();
             detector_iterator++) {
 
@@ -62,10 +65,10 @@ public:
 
     void Handle_Task()
     {
-        std::queue<std::unique_ptr<Task> >* task_queue_group[]
+        std::queue<std::unique_ptr<Task>>* task_queue_group[]
             = { &task_queue_debug_,
-                &task_queue_positive_,
-                &task_queue_negtive_ };
+                  &task_queue_positive_,
+                  &task_queue_negtive_ };
 
         int number_queue = sizeof(task_queue_group) / sizeof(task_queue_group[0]);
 

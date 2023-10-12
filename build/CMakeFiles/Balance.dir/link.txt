@@ -1,3 +1,1 @@
-D:\Software\CMake\bin\cmake.exe -E rm -f CMakeFiles\Balance.dir/objects.a
-D:\Software\Msys64\mingw64\bin\ar.exe qc CMakeFiles\Balance.dir/objects.a @CMakeFiles\Balance.dir\objects1.rsp
-D:\Software\Msys64\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Balance.dir/objects.a -Wl,--no-whole-archive -o Balance.exe -Wl,--out-implib,libBalance.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Balance.dir\linkLibs.rsp
+/usr/bin/c++ -g CMakeFiles/Balance.dir/main.cc.o CMakeFiles/Balance.dir/Controller/MotionController/motion.cc.o CMakeFiles/Balance.dir/Controller/PIDRegulator/pid.cc.o -o Balance 

@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Site BuildName="Win32-mingw32-make"
+<Site BuildName="Linux-c++"
 	BuildStamp="20231012-0934-Experimental"
-	Name="DESKTOP-FD6QCTU"
-	Generator="ctest-3.27.4"
-	CompilerName="D:/Software/Msys64/mingw64/bin/g++.exe"
-	CompilerVersion="13.2.0"
-	OSName="Windows"
-	Hostname="DESKTOP-FD6QCTU"
-	OSRelease=" Professional"
-	OSVersion=" (Build 19045)"
-	OSPlatform="AMD64"
+	Name="creeper5820-MS-7C83"
+	Generator="ctest-3.22.1"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="11.4.0"
+	OSName="Linux"
+	Hostname="creeper5820-MS-7C83"
+	OSRelease="6.2.0-34-generic"
+	OSVersion="#34~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Sep  7 13:12:03 UTC 2"
+	OSPlatform="x86_64"
 	Is64Bits="1"
-	VendorString="AuthenticAMD"
-	VendorID="Advanced Micro Devices"
-	FamilyID="15"
-	ModelID="0"
-	ProcessorCacheSize="64"
-	NumberOfLogicalCPU="16"
-	NumberOfPhysicalCPU="8"
-	TotalVirtualMemory="18652"
-	TotalPhysicalMemory="16220"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="165"
+	ProcessorCacheSize="12288"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="6"
+	TotalVirtualMemory="0"
+	TotalPhysicalMemory="15921"
 	LogicalProcessorsPerPhysical="2"
-	ProcessorClockFrequency="3194"
+	ProcessorClockFrequency="3999.99"
 	>
 	<Testing>
-		<StartDateTime>Oct 12 18:49 [NON-UTF-8-BYTE-0xD6]й[NON-UTF-8-BYTE-0xFA][NON-UTF-8-BYTE-0xB1][NON-UTF-8-BYTE-0xEA]׼ʱ[NON-UTF-8-BYTE-0xBC][NON-UTF-8-BYTE-0xE4]</StartDateTime>
-		<StartTestTime>1697107755</StartTestTime>
+		<StartDateTime>Oct 12 19:14 CST</StartDateTime>
+		<StartTestTime>1697109264</StartTestTime>
 		<TestList/>
-		<EndDateTime>Oct 12 18:49 [NON-UTF-8-BYTE-0xD6]й[NON-UTF-8-BYTE-0xFA][NON-UTF-8-BYTE-0xB1][NON-UTF-8-BYTE-0xEA]׼ʱ[NON-UTF-8-BYTE-0xBC][NON-UTF-8-BYTE-0xE4]</EndDateTime>
-		<EndTestTime>1697107755</EndTestTime>
+		<EndDateTime>Oct 12 19:14 CST</EndDateTime>
+		<EndTestTime>1697109264</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>

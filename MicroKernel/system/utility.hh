@@ -10,7 +10,7 @@ public:
 
     void Delay()
     {
-        for (int i = 0; i < INT_MAX / 2; i++)
+        for (int i = 0; i < 0xfffffff / 2; i++)
             ;
     }
 };
