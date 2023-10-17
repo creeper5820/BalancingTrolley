@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Site BuildName="Linux-c++"
-	BuildStamp="20231012-0934-Experimental"
+	BuildStamp="20231017-1038-Experimental"
 	Name="creeper5820-MS-7C83"
 	Generator="ctest-3.22.1"
 	CompilerName="/usr/bin/c++"
@@ -21,14 +21,14 @@
 	TotalVirtualMemory="0"
 	TotalPhysicalMemory="15921"
 	LogicalProcessorsPerPhysical="2"
-	ProcessorClockFrequency="4000.17"
+	ProcessorClockFrequency="4000"
 	>
 	<Testing>
-		<StartDateTime>Oct 12 21:38 CST</StartDateTime>
-		<StartTestTime>1697117895</StartTestTime>
+		<StartDateTime>Oct 17 18:38 CST</StartDateTime>
+		<StartTestTime>1697539113</StartTestTime>
 		<TestList/>
-		<EndDateTime>Oct 12 21:38 CST</EndDateTime>
-		<EndTestTime>1697117895</EndTestTime>
+		<EndDateTime>Oct 17 18:38 CST</EndDateTime>
+		<EndTestTime>1697539113</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>
